@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&family=Glory:wght@100;200;300;400;500;600;700;800&family=Noto+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Geologica', sans-serif;
+  /* font-family: 'Glory', sans-serif;
+  font-family: 'Noto Sans', sans-serif; */
+}
+
+
+.container {
+  @apply max-w-6xl mx-auto px-5
+}
+
+.center {
+  @apply flex items-center justify-center
+}
